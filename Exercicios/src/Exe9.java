@@ -6,12 +6,14 @@ public class Exe9 {
         String nome = "Ryan";
         int idade = 19;
         double altura = 1.65;
-        float peso = 71.4f;
+        float peso = 71.4f; // Precisa de F
         short anoNascimento = 2005;
         char arroba = '@';
         boolean falso = false;
-        long numero = 119706325;
-        byte Bit = 1;
+        long numero = 5511970656325L; // Precisa de L
+        byte Bit = 124;
+
+        // Pesquisar sobre: Garbage Collector
 
         System.out.println(nome);
         System.out.println(idade);
@@ -21,6 +23,6 @@ public class Exe9 {
         System.out.println(arroba);
         System.out.println(falso);
         System.out.println(numero);
-        System.out.println(Bit);
+        System.out.print(Bit);
     }
 }
