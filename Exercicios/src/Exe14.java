@@ -13,7 +13,7 @@ public class Exe14 {
 
         System.out.println("\nNúmero em Int: " + numeroEmInt);
         System.out.println("Número em Double: " + numeroEmDouble);
-        System.out.println("Número em Boolean: " + numeroEmBoolean);
+        System.out.print("Número em Boolean: " + numeroEmBoolean);
 
     }
 }
