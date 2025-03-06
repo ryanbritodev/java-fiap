@@ -27,5 +27,7 @@ public class Exe20 {
         if (angulo1 < 90 && angulo2 < 90 && angulo3 < 90) {
             System.out.println("\nTRIÂNGULO ACUTÂNGULO");
         }
+
+        scanner.close();
     }
 }

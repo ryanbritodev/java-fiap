@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 public class Exe15 {
     public static void main(String[] args) {
-        int primeiroValor;
-        int segundoValor;
-        int terceiroValor;
+        int primeiroValor, segundoValor, terceiroValor;
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("1° valor: ");

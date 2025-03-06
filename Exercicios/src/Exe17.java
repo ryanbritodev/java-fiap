@@ -19,5 +19,6 @@ public class Exe17 {
         } else if (lados == 5) {
             System.out.println("\nPENTÁGONO");
         }
+        scanner.close();
     }
 }

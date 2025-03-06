@@ -11,6 +11,7 @@ public class Exe19 {
         lado2 = scanner.nextDouble();
         System.out.print("Informe o tamanho do 3° lado: ");
         lado3 = scanner.nextDouble();
+        scanner.close();
 
         if (lado1 == lado2 && lado2 == lado3 && lado3 == lado1) {
             System.out.println("\nTRIÂNGULO EQUILÁTERO");

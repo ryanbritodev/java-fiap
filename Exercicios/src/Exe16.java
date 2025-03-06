@@ -25,7 +25,7 @@ public class Exe16 {
                 System.out.println("\nOpção inválida! Tente novamente\n");
             }
         }
-
+        scanner.close();
         System.out.printf("\nO seu peso ideal é %.2fkg", peso);
     }
 }

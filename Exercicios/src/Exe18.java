@@ -23,5 +23,6 @@ public class Exe18 {
         } else {
             System.out.println("\nPOLÍGONO NÃO IDENTIFICADO");
         }
+        scannerzinho.close();
     }
 }
