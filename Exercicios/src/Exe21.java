@@ -5,11 +5,13 @@ public class Exe21 {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("Digite uma palavra/frase ou PARE para parar: ");
-            String palavra = scanner.nextLine().toUpperCase().strip();
+            String palavra = scanner.nextLine().strip();
 
-            if (palavra.equals("PARE")){
+            if (palavra.equalsIgnoreCase("PARE")){
                 System.out.print("Até mais! 👋🏻");
                 break;
+            } else {
+                System.out.println("A palavra/frase digitada foi: " + '"' + palavra + '"' );
             }
         }
         scanner.close();
