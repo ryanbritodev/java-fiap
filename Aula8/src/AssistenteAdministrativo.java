@@ -3,6 +3,7 @@ public class AssistenteAdministrativo extends Assistente {
     protected String turno;
     private final double adicionalNoturno;
 
+    // Construtores
     public AssistenteAdministrativo(String nome, double salario, int matricula) {
         super(nome, salario, matricula);
         this.turno = "Diurno";
