@@ -4,12 +4,15 @@ public class AssistenteAdministrativo extends Assistente {
     private final double adicionalNoturno;
 
     // Construtores
+
+    // Construtor Padrão
     public AssistenteAdministrativo(String nome, double salario, int matricula) {
         super(nome, salario, matricula);
         this.turno = "Diurno";
         this.adicionalNoturno = 0;
     }
 
+    // Construtor Genérico
     public AssistenteAdministrativo(String nome, double salario, int matricula, String turno, double adicionalNoturno) {
         super(nome, salario, matricula);
         this.turno = turno;
